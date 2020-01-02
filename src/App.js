@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Clock from './Clock.js';
+import MyComponent from './MyComponent';
 
 let time = new Date().toLocaleString();
 
@@ -17,6 +18,7 @@ class App extends Component {
           Hi {this.props.name}!
         </p>
         <Clock />
+        <MyComponent />
       </div>
     );
   }
